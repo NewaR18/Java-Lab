@@ -5,7 +5,7 @@ public class Main {
         String url = "jdbc:mysql://localhost:3306/dab";
         String user = "root";
         String password = "admin";
-        String query = "Insert into mytable values(92,'Sudip',23)";
+        String query = "Insert into mytable values(97,'Manisg',22)";
         Connection conn = DriverManager.getConnection(url, user, password);
         Statement stmt = conn.createStatement();
         int n = stmt.executeUpdate(query);
@@ -14,6 +14,6 @@ public class Main {
         }
         stmt.close();
         conn.close();
-        System.out.println("\nLab no: 28 \nName: Sudip Shrestha \nRoll No/Section: 20/A");
+        System.out.println("\nLab no: 28 \nName: Manish Thapa \nSection: B");
     }
 }

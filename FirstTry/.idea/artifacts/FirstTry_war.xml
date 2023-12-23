@@ -1,0 +1,14 @@
+<component name="ArtifactManager">
+  <artifact type="war" name="FirstTry:war">
+    <output-path>$PROJECT_DIR$/target</output-path>
+    <properties id="maven-jee-properties">
+      <options>
+        <module>FirstTry</module>
+        <packaging>war</packaging>
+      </options>
+    </properties>
+    <root id="archive" name="FirstTry-1.0-SNAPSHOT.war">
+      <element id="artifact" artifact-name="FirstTry:war exploded" />
+    </root>
+  </artifact>
+</component>

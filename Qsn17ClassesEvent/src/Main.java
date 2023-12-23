@@ -1,4 +1,4 @@
-package JFrame;
+
 
 import javax.swing.*;
 import java.awt.*;

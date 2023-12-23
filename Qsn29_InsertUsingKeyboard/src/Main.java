@@ -23,6 +23,6 @@ public class Main {
         }
         stmt.close();
         conn.close();
-        System.out.println("\nLab no: 29 \nName: Sudip Shrestha \nRoll No/Section: 20/A");
+        System.out.println("\nLab no: 29 \nName: Manish Thapa \nRoll No/Section: 11/B");
     }
 }

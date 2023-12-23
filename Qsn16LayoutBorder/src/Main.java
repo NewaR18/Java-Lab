@@ -5,7 +5,6 @@ public class Main extends JFrame {
     JLabel l1 = new JLabel("label A ");
     JLabel l2 = new JLabel("Label B ");
     JButton btn = new JButton("Submit");
-
     Main() {
         setTitle("Text Components");
         setLayout(new BorderLayout());
@@ -16,7 +15,6 @@ public class Main extends JFrame {
         setVisible(true);
         setDefaultCloseOperation(JFrame.DISPOSE_ON_CLOSE);
     }
-
     public static void main(String[] args) {
         new Main();
     }

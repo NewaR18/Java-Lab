@@ -24,7 +24,6 @@ public class Main extends JFrame{
         setLayout(new GridLayout(10,1));
         ImageIcon image = new ImageIcon("logo.png");
         JLabel l1=new JLabel("Sudip");
-
         add(l1);
         tf.setToolTipText("Don't touch me");
         p.add(tf);
